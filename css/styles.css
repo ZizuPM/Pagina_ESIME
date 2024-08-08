@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+/*Ajuste general*/
+
+* {
+    box-sizing: border-box;
+    
+    margin: 0;
+    border: 0px;
+    padding: 0px;
+}
+
+
+/*HEADER de gobierno*/
+.gobiernoHeader {
+    display: flex;
+    
+    background-color: #152d28;
+    
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+
+    height: 45px;
+    max-width: 100%;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0px 210px;
+}
+
+/*LOGO DE BOBIERNO*/
+.logoGobierno img {
+    height: 29px;
+    width: auto;   
+}
+
+.logoGobierno img:hover {
+    background-color: #a2acaa;
+}
+
+.linksGobierno {
+    display: flex;
+    list-style-type: none;   
+}
+
+.linksGobierno li {
+    padding: 0px 20px;
+}
+
+.linksGobierno svg {
+    height: 15px;
+    width: auto;
+}
+
+
+
+/*LINKS DE GOBIERNO*/
+.linksGobierno a {
+    color: white;
+   text-decoration: none;
+}
+
+.linksGobierno a:hover {
+    color: #a2acaa;
+    text-decoration: none;
+}
