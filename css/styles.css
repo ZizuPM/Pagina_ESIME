@@ -29,23 +29,71 @@
     padding: 0px 210px;
 }
 
+
+.navGobierno {
+    display: flex;
+
+    height: 100%;
+
+    align-items: center;
+}
+
+
 /*LOGO DE BOBIERNO*/
+
+.logoGobierno {
+    display: flex;
+
+    height: 100%;
+
+    align-items: center;
+}
+
+.logoGobierno a {
+    display: flex;
+    align-items: center;
+    
+    color: #a2acaa;
+
+    height: 100%;
+}
+
+.logoGobierno a:hover  img {
+    filter: brightness(70%);  
+}
+
 .logoGobierno img {
     height: 29px;
-    width: auto;   
+    width: auto; 
 }
 
-.logoGobierno img:hover {
-    background-color: #a2acaa;
-}
 
+/*LINKS DE GOBIERNO*/
 .linksGobierno {
     display: flex;
+    align-items: center;
+
+    height: 100%;
+
     list-style-type: none;   
 }
 
 .linksGobierno li {
-    padding: 0px 20px;
+    display: flex;
+
+    align-items: center;
+    
+    height: 100%;
+
+    margin: 0px 2px;
+    padding: 0px 15px;
+
+    cursor: pointer;
+}
+
+.linksGobierno li:hover a{
+    color: #a2acaa;
+    text-decoration: none;
 }
 
 .linksGobierno svg {
@@ -53,15 +101,7 @@
     width: auto;
 }
 
-
-
-/*LINKS DE GOBIERNO*/
 .linksGobierno a {
     color: white;
    text-decoration: none;
-}
-
-.linksGobierno a:hover {
-    color: #a2acaa;
-    text-decoration: none;
 }
