@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Roboto&display=swap');
 
 /*Ajuste general*/
 
 * {
     box-sizing: border-box;
-    
+
     margin: 0;
     border: 0px;
     padding: 0px;
@@ -14,9 +15,9 @@
 /*HEADER de gobierno*/
 .gobiernoHeader {
     display: flex;
-    
+
     background-color: #152d28;
-    
+
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
 
@@ -52,19 +53,19 @@
 .logoGobierno a {
     display: flex;
     align-items: center;
-    
+
     color: #a2acaa;
 
     height: 100%;
 }
 
-.logoGobierno a:hover  img {
-    filter: brightness(70%);  
+.logoGobierno a:hover img {
+    filter: brightness(70%);
 }
 
 .logoGobierno img {
     height: 29px;
-    width: auto; 
+    width: auto;
 }
 
 
@@ -75,14 +76,14 @@
 
     height: 100%;
 
-    list-style-type: none;   
+    list-style-type: none;
 }
 
 .linksGobierno li {
     display: flex;
 
     align-items: center;
-    
+
     height: 100%;
 
     margin: 0px 2px;
@@ -91,7 +92,7 @@
     cursor: pointer;
 }
 
-.linksGobierno li:hover a{
+.linksGobierno li:hover a {
     color: #a2acaa;
     text-decoration: none;
 }
@@ -102,6 +103,170 @@
 }
 
 .linksGobierno a {
+    display: flex;
+
+    align-items: center;
+
+    height: 100%;
+
     color: white;
-   text-decoration: none;
+    text-decoration: none;
+}
+
+
+/*-----------------------------------------------------------------------------
+                NAV     DEL     IPN
+*/
+
+.headerIPN {
+    display: flex;
+
+    align-items: center;
+    justify-content: end;
+}
+
+.linksIPN {
+    display: flex;
+
+    padding: 10px 5px;
+
+    list-style-type: none;
+}
+
+.linksIPN li {
+    display: flex;
+
+    list-style-type: none;
+
+    border: 1px solid #363636;
+    border-width: 0 2px 0 0;
+    padding: 0px 10px;
+}
+
+.linksIPN li:last-child {
+    border-right: navajowhite;
+}
+
+.linksIPN a:hover {
+    color: #727272;
+}
+
+.linksIPN a {
+    color: #363636;
+    text-decoration: none;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/*-----------------------------------------------------------------------------
+                LOGOS   INSTITUCIONALES
+*/
+
+.logosInstitucionales {
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 120px;
+    width: 1110px;
+
+    margin: 0px auto;
+
+    justify-content: start;
+    align-items: center;
+
+}
+
+.logosInstitucionales img:hover {
+    filter: brightness(130%);
+}
+
+.nombreFraseEscuela:hover {
+    filter: brightness(200%);
+}
+
+#logoSEP {
+    height: 120px;
+    width: auto;
+    bright
+}
+
+
+#logoIPN {
+    height: 70px;
+    width: auto;
+
+    padding: 0 8px;
+}
+
+.nombreFraseEscuela {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    height: 100%;
+
+    color: #363636;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+#nombreEscuela {
+    margin-top: auto;
+
+    font-weight: bold;
+}
+
+#frase {
+    margin-bottom: 20px;
+}
+
+.navAccesibilidad {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: right;
+
+    height: 15px;
+    width: 100%;
+}
+
+.navAccesibilidad ul {
+    display: flex;
+    flex-direction: row;
+
+    list-style-type: none;
+}
+
+.navAccesibilidad li {
+    padding: 10px;
+}
+
+.navAccesibilidad a {
+    color: #666666;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.navAccesibilidad a:hover {
+    filter: brightness(200%);
+}
+
+.navAccesibilidad svg {
+    height: 20px;
+    width: auto;
+}
+
+.navAccesibilidad img {
+    height: 20px;
+    width: auto;
 }
